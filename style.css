@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -142,7 +142,7 @@ body {
   }
   
   .todo__list .todo__item.todo__item-edit .input {
-    display:inline-block;
+    display: inline-block;
     width: 224px;
   }
   
