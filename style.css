@@ -35,7 +35,8 @@ body {
   .task-row-wrapper {
     display: flex;
   }
-  ul {
+  ul,
+  p {
     margin: 0;
     padding: 0px;
   }
@@ -131,7 +132,7 @@ body {
   }
   
   /* Completed */
-  ul#completed-tasks label {
+  ul#completed-tasks p {
     text-decoration: line-through;
     color: #888;
   }
@@ -146,6 +147,6 @@ body {
     width: 224px;
   }
   
-  ul li.editMode label {
+  ul li.editMode p {
     display: none;
   }
